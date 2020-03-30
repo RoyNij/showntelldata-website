@@ -349,6 +349,22 @@ Single Project
 .single h1, .single h2{
     font-family: var( --menuFont );
     color: #007D7D;
+    margin-top: 40px;
+}
+
+.single h3, .single h4{
+    text-transform: uppercase;
+    color: #501450;
+}
+
+.single h3{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.single h4{
+    font-size: 18px;
+    margin-top: 25px;
 }
 
 .single .highlight{
@@ -362,13 +378,28 @@ Single Project
     margin: 20px 0 10px;
 }
 
-
 .single .header p{
     font-size: 16px;
     line-height: 1.2em;
     margin: 0;
 }
 
+.single table{
+    margin: 20px auto;
+}
+
+.single ul{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: #FAFAFA;
+    font-size: 1.2em;
+}
+
+.single li{
+    margin-bottom: 10px;
+}
 
 @media (min-width: 768px){
     .hero .container{
