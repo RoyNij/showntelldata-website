@@ -4,6 +4,7 @@ body{
 }
 main{
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .image-container{
@@ -399,6 +400,12 @@ Single Project
 
 .single li{
     margin-bottom: 10px;
+}
+
+.single .button-container{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
 }
 
 @media (min-width: 768px){

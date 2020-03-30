@@ -28,7 +28,7 @@ The first part of the solution, was to create an interactive form for the expert
 |  |  |
 | :----: | :----: |
 | ![Matrix image](/images/projects/sdg-synergies-respondent-matrix.png) | ![Scoring image](/images/projects/sdg-synergies-respondent-scoring.png)|
-| The expert matrix | Scoring an interaction |
+| *The expert matrix | Scoring an interaction* |
 
 ### Viewing results
 After the scoring part of the workshops has ended, an immediate view of the results can be shown using the same matrix, but now with the averaged scores of all experts for all the interactions. The view is instantaneous and can be viewed during the scoring part of the workshop as well to show answers from the experts are incorporated in the final result.
@@ -36,14 +36,14 @@ After the scoring part of the workshops has ended, an immediate view of the resu
 |   |
 | :----: |
 |![Matrix image](/images/projects/sdg-synergies-matrix.png)| 
-| The final results matrix | 
+| *The final results matrix* | 
 
 If you want you can also go into detail and show the distribution of scores for one specific interaction in the matrix.
 
 |   |
 | :----: |
 | ![Matrix image interaction](/images/projects/sdg-synergies-matrix-interaction.png)|
-| Showing the result for one interaction |
+| *Showing the result for one interaction* |
 
 #### Other view types
 Besides the matrix which shows all interactions at the same, the organizers of a workshop also have the ability to view the results of one goal in relationship with all other goals in a radial diagram. This view, has the added options of filtering on the score size and reordering interactions by their score.
@@ -51,14 +51,14 @@ Besides the matrix which shows all interactions at the same, the organizers of a
 |   |
 | :----: |
 | ![Radial diagram](/images/projects/sdg-synergies-radial.png)|
-| A radial diagram of on SDG objective interacting with all others |
+| *A radial diagram of on SDG objective interacting with all others* |
 
 Another way of looking at the results is by looking at the network (graph) created by the interactions between SDG objectives. For this analysis I also created a network view which places the nodes with the largest interaction scores in the center and tries to give an overview of the most influential objectives.
 
 |   |
 | :----: |
 | ![Network view](/images/projects/sdg-synergies-network.png) |
-| A network view of the SDG objective interactions |
+| *A network view of the SDG objective interactions* |
 
 These visualizations give a very good initial overview of the interactions between goals as well as being pleasing to the eye (or at least I think). That's alsow why all visualizations can be downloaded at a high resolution to be used in other documents.
 
@@ -68,12 +68,12 @@ While the visualizations give a good initial view of the interactions, for a mor
 |   |
 | :----: |
 | ![Network download options](/images/projects/sdg-synergies-network-options.png)
-| The options for downloading the network data |
+| *The options for downloading the network data* |
 
 |   |
 | :----: |
 | ![Data view options](/images/projects/sdg-synergies-view-options.png)
-| The options for viewing and downloading the interactions data |
+| *The options for viewing and downloading the interactions data* |
 
 ### Making it future-proof
 Finally, all these options are great if you have just one workshop, but obviously the goal is to keep using this application as much as possible for all types of workshops. So, in order to make it a bit more future-proof, the application also has an administrative part where administrators can add and edit objectives (different from the ones defined for the SDGs).
@@ -81,6 +81,6 @@ Finally, all these options are great if you have just one workshop, but obviousl
 |   |
 | :----: |
 | ![Editing an objective](/images/projects/sdg-synergies-edit-options.png)
-| Editing an objective |
+| *Editing an objective* |
 
 After creating or editing objectives, these can then be linked to new workshops. All the view and download options are available for all the different workshops that are organized, making this an application where researchers can easily access the data they collected in a variety of different workshops all over the world.
