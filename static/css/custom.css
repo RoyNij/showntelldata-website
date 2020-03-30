@@ -1,0 +1,430 @@
+body{
+    text-align: left;
+    padding-top: 0;
+}
+main{
+    overflow: hidden;
+}
+
+.image-container{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/**
+Navigation
+*/
+.navbar{
+    background-color: var(--accent);
+    padding: 10px 0;
+}
+
+.navbar a:hover, .navbar a:link, .navbar a:visited{
+    color: white !important;
+}
+
+.navbar-header{
+    width: 100%;
+    padding: 0 10px;
+}
+
+.navbar-toggler{
+    float: right;
+}
+
+.navbar-toggler-icon{
+    font-size: 30px;
+    height: 1em;
+    width: 1em;
+    color: white;
+}
+
+.navbar-nav.main{
+    font-family: var(--menuFont);
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar-right{
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar-icon{
+    width: 30px;
+    margin: 10px;
+}
+
+.navbar-collapse .logo{
+    display: none;
+}
+
+.navbar-collapse.in {
+    display: block !important;
+}
+
+.navbar-brand .logo{
+    width: 180px;
+}
+
+
+.navbar-nav>li>a{
+    color: white
+}
+
+/**
+Hero
+*/
+.hero{
+    background-color: #202020;
+    color: white;
+    text-align: center;
+}
+
+.hero .container{
+    position: relative;
+    min-height: 600px;
+}
+
+.hero .logo{
+    width: 350px;
+    margin: 100px auto 0;
+}
+
+.hero .mainline{
+    margin-top: 30px;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.hero .byline{
+    margin-top: 0;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.hero .normal-curve{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 150px;
+}
+
+.hero .actions{
+    list-style: none;
+    padding: 0;
+}
+
+.hero .actions li{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    border: solid 2px white;
+    border-radius: 7px;
+    margin: 10px;
+}
+
+/**
+    What we do
+*/
+.what-we-do{
+    overflow: hidden;
+}
+
+.what-we-do .section{
+    margin: 40px 0 40px; 
+    text-align: center;
+    overflow: hidden;
+}
+
+.section img{
+    display: block;
+    margin: 0 auto 30px;
+}
+
+.section h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section p{
+    font-size: 18px;
+    line-height: 1.6;
+    color: #202020;
+}
+
+.section.purple h3{
+    color: #501450;
+}
+
+.section.dark-green h3{
+    color: #007D7D;
+}
+
+.section.light-green h3{
+    color: #14C9A0;
+}
+
+/**
+Section banner
+*/
+.section-banner{
+    background-color: #202020;
+    color: white;
+    font-family: var( --menuFont );
+    font-size: 25px;
+    
+}
+
+.section-banner .row{
+    height: 200px;
+}
+
+.section-banner .container{
+    position: relative;
+}
+
+.section-banner .normal-curve{
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    width: 150px;
+    height: 40px;
+}
+
+.section-banner .normal-curve.var{
+    position: absolute;
+    bottom: 0;
+    right: 190px;
+    width: 200px;
+    height: 90px;
+}
+
+/**
+
+*/
+.project-list{
+    overflow: hidden;
+}
+
+.project{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px 0;
+    border: solid 1px #EFEFEF;
+    
+}
+
+.project .image-container{
+    width: 60%;
+}
+
+.project .info{
+    width: 40%;
+    height: 100%;
+    padding: 10px;
+    background-color: #FEFEFE;
+    position: relative;
+}
+
+.project h3{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #404040;
+}
+
+.project .summary{
+    padding: 10px;
+}
+
+.project .button-container{
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+
+/**
+Buttons
+*/
+.button{
+    padding: 3px 20px 1px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 2px;
+    font-family: var(--menuFont);
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.button:hover{
+    text-decoration: none;
+}
+
+.button.purple{
+    background-color: #501450;
+    border-color: #501450;
+    color: white;
+}
+
+.button.dark-green{
+    background-color: #007D7D;
+    border-color: #007D7D;
+    color: white;
+}
+
+.button.light-green{
+    background-color: #14C9A0;
+    border-color: #14C9A0;
+    color: white;
+}
+
+.button.purple:hover, .button.purple:visited,
+.button.dark-green:hover, .button.dark-green:visited,
+.button.light-green:hover, .button.light-green:visited{
+    color: white !important; 
+}
+
+.button.outline{
+    background-color: white;
+}
+
+.button.outline.purple{
+    color: #501450;
+}
+
+.button.outline.dark-green{
+    color: #007D7D;
+}
+
+.button.outline.light-green{
+    color: #14C9A0;
+}
+
+.button.outline.purple:hover, .button.outline.purple:visited{
+    color: #501450 !important; 
+}
+
+.button.outline.dark-green:hover, .button.outline.dark-green:visited{
+    color: #007D7D !important;
+}
+
+.button.outline.light-green:hover, .button.outline.light-green:visited{
+    color: #14C9A0 !important;
+}
+/**
+Single Project
+*/
+
+.single{
+    color: #404040;
+}
+
+.banner{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.banner .image-container{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.single p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.single h1, .single h2{
+    font-family: var( --menuFont );
+    color: #007D7D;
+}
+
+.single .highlight{
+    color: #501450;
+    font-style: italic;
+}
+
+.single .header{
+    border-bottom: solid 1px #DEDEDE;
+    padding-bottom: 10px;
+    margin: 20px 0 10px;
+}
+
+
+.single .header p{
+    font-size: 16px;
+    line-height: 1.2em;
+    margin: 0;
+}
+
+
+@media (min-width: 768px){
+    .hero .container{
+        min-height: 400px;
+    }
+
+    .hero .normal-curve{
+        width: 200px;
+    }
+
+    .hero .actions{
+        display: flex;
+        justify-content: center;
+    }
+
+    .section{
+        text-align: left;
+    }
+}
+
+
+@media (min-width: 992px){
+    .navbar-collapse{
+        position: relative;
+    }
+
+    .navbar-collapse{
+        justify-content: center;
+        align-items: center;        
+    }
+
+    .navbar-nav.main{
+        display: flex;
+        justify-content: space-around;
+        font-family: var(--menuFont);
+        font-size: 20px;
+        width: 200px;
+    }
+
+    .navbar-collapse .logo{
+        display: block;
+        width: 80px;
+    }
+
+    .navbar-right{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .hero .normal-curve{
+        width: 300px;
+    }
+}
+

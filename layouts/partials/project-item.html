@@ -1,0 +1,27 @@
+<div class='project'>
+    <div class='info'>
+        <h3>
+            {{ .Title }}
+        </h3>
+
+        <p class='summary'>
+            {{ .Params.summary }}
+        </p>
+
+        <div class='button-container'>
+            <a href="{{ .RelPermalink }}" class='button light-green'>
+                More Info
+            </a>
+            {{ if isset .Params "link" }}
+            <a href="{{ .Params.link }}" class='button outline light-green'
+                target="_blank" rel="noreferrer noopener"
+            >
+                See Project
+            </a>
+            {{ end }}
+        </div>
+    </div>
+
+    <div class='image-container' style="background-image: url( '{{ .Params.banner | absURL }}' )"></div>
+    
+</div>

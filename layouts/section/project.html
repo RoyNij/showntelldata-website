@@ -1,0 +1,17 @@
+{{ partial "header" . }}
+
+<main>
+    {{partial "section-banner" . }}
+    <div class='container'>
+        <div class='row content'>
+            <div class='col-12 project-list'>
+            {{ range (.Pages.ByParam "year").Reverse }} {{ partial "project-item" . }} {{ end }}
+            </div>
+        </div>
+
+    </div>
+</main>
+
+{{ partial "paginator" . }}
+
+{{ partial "footer" . }}

@@ -1,0 +1,35 @@
+{{ partial "header" . }}
+
+<main class='single'>
+    <div class='container-fluid banner'>
+        <div class='image-container' style="background-image: url('{{ .Params.banner | absURL }}');"></div>
+    </div>
+    <div class='container'>
+        <div class='row header'>
+            <div class='col-12'>
+                <h1>{{ .Params.title}}</h1>
+
+                {{if isset .Params "year"}}
+                <p class='year'>Year: <span class='highlight'>{{ .Params.year }}</span></p>
+                {{end}}
+                
+                {{if isset .Params "design"}}
+                <p class='design'>Design: <span class='highlight'>{{ delimit .Params.design " & "}}</span></p>
+                {{end}}
+
+                {{if isset .Params "technology"}}
+                <p class='technology'>Technologies: 
+                    <span class='highlight'>{{ delimit .Params.technology ", "}}</span>
+                </p>
+                {{end }}
+            </div>
+        </div>
+        <div class='row content'>
+            <div class='col-12'>
+            {{ .Content }}
+            </div>
+        </div>
+    </div>
+</main>
+
+{{ partial "footer" . }}

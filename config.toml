@@ -1,0 +1,76 @@
+baseURL = "http://example.com/"
+languageCode = "en-us"
+title = "Show 'n Tell Data"
+theme = "minimal"
+disqusShortname = "username" # delete this to disable disqus comments
+googleAnalytics = ""
+
+[params]
+    author = "Roy Nijhof"
+    description = "Show 'n Tell Data Design Website"
+    githubUsername = "#"
+    accent = "#007D7D"
+    showBorder = false
+    backgroundColor = "white"
+    font = "Raleway" # should match the name on Google Fonts!
+    menuFont = "Bebas Neue"
+    highlight = false
+    highlightStyle = "default"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+    css = ["css/custom.css"]
+
+[[menu.main_left]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main_left]]
+    url = "/project/"
+    name = "Solutions"
+    weight = 2
+
+[[menu.main_right]]
+    url = "/posts/"
+    name = "Blog"
+    weight = 1
+
+[[menu.main_right]]
+    url = "/about/"
+    name = "About"
+    weight = 2
+
+# Social icons to be shown on the right-hand side of the navigation bar.
+# The "name" field should match the name of the icon in Font Awesome.
+# The list of available icons can be found at http://fontawesome.io/icons.
+
+[[menu.icon]]
+    url = "mailto:info@showntelldata.com"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/RoyNij/"
+    name = "github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://bitbucket.com/%7B9582ce8e-391e-4527-a233-b96b5136f9ea%7D/"
+    name = "bitbucket"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://twitter.com/RoyNijhof/"
+    name = "twitter"
+    weight = 4
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/roy-n-72111214/"
+    name = "linkedin"
+    weight = 5
+
+
+# Languages
+DefaultContentLanguage = "en"
+
+[languages]
+    [languages.en]
