@@ -1,14 +1,14 @@
 {{ partial "header" . }}
 
 
-{{ .Scratch.Set "variation" "projects"}}
+{{ .Scratch.Set "variation" "posts"}}
 
 <main>
     {{partial "section-banner" . }}
     <div class='container'>
         <div class='row content'>
-            <div class='col-12 project-list'>
-            {{ range .Pages }} {{ partial "project-item" . }} {{ end }}
+            <div class='col-12 post-list'>
+            {{ range .Pages }} {{ partial "post-item" . }} {{ end }}
             </div>
         </div>
 

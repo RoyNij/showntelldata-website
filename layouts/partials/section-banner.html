@@ -3,8 +3,21 @@
         <div class='row align-items-center justify-content-center'>
             <h1>{{ .Title }}</h1>
         </div>
+
+        {{if eq (.Scratch.Get "variation") "projects" }}
         <img src="{{ "images/common/normal-curve-white.png" | absURL }}" class='normal-curve'/>
         <img src="{{ "images/common/normal-curve-white.png" | absURL }}" class='normal-curve var'/>
+        {{end}}
+
+        {{if eq (.Scratch.Get "variation") "posts" }}
+        <img src="{{ "images/common/normal-curve-white.png" | absURL }}" class='normal-curve posts'/>
+        <img src="{{ "images/common/normal-curve-white.png" | absURL }}" class='normal-curve posts var'/>
+        <img src="{{ "images/common/normal-curve-white.png" | absURL }}" class='normal-curve posts var2'/>
+        {{end}}
+
+        {{if eq (.Scratch.Get "variation") "about" }}
+        <img src="{{ "images/common/normal-curve-white.png" | absURL }}" class='normal-curve var'/>
+        {{end}}
     </div>
 
 </div>

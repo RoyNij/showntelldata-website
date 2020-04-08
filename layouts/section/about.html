@@ -1,0 +1,19 @@
+{{ partial "header" . }}
+
+
+{{ .Scratch.Set "variation" "about"}}
+
+<main>
+
+    {{partial "section-banner" . }}
+
+    <div class='container about single'>
+        <div class='row content'>
+            <div class='col-12'>
+                {{.Content}}
+            </div>
+        </div>
+    </div>
+</main>
+
+{{ partial "footer" . }}

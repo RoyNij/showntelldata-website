@@ -1,0 +1,23 @@
+{{ partial "header" . }}
+
+{{ .Scratch.Set "variation" "posts"}}
+
+<main class='single'>
+    {{partial "section-banner" . }}
+
+    <div class='container'>
+        <div class='row content'>
+            <div class='col-12 header'>
+                <p class='date'>
+                    {{.PublishDate.Format "January 6, 2006"}}
+                </p>
+            </div>
+            <div class='col-12'>
+            {{ .Content }}
+            </div>
+        </div>
+    </div>
+
+</main>
+
+{{ partial "footer" . }}

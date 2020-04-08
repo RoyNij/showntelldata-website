@@ -5,6 +5,21 @@ body{
 main{
     overflow: hidden;
     margin-bottom: 20px;
+    min-height: calc(100vh - 180px);
+}
+
+.date{
+    font-size: 0.8em;
+    margin-bottom: 0.2rem;
+}
+
+.single .date{
+    font-size: 0.9em;
+    color: #404040;
+}
+
+.single a{
+    font-weight: bold;
 }
 
 .image-container{
@@ -55,7 +70,9 @@ Navigation
 
 .navbar-icon{
     width: 30px;
-    margin: 10px;
+    margin: 10px 5px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .navbar-collapse .logo{
@@ -205,8 +222,44 @@ Section banner
     height: 90px;
 }
 
-/**
+.section-banner .normal-curve.posts{
+    position: absolute;
+    bottom: 0;
+    right: 80px;
+    width: 250px;
+    height: 60px;
+}
 
+.section-banner .normal-curve.posts.var{
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    width: 150px;
+    height: 80px;
+}
+
+.section-banner .normal-curve.posts.var2{
+    position: absolute;
+    bottom: 0;
+    left: 160px;
+    width: 150px;
+    height: 40px;
+}
+
+.post-list{
+    overflow: hidden;
+}
+
+.post-list .post{
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    background-color: #FEFEFE;
+    border: solid 1px #EFEFEF;
+}
+
+/**
+Project list
 */
 .project-list{
     overflow: hidden;
@@ -342,6 +395,11 @@ Single Project
     background-position: center center;
 }
 
+.single .section-banner h1{
+    color: white;
+}
+
+
 .single p{
     font-size: 18px;
     line-height: 1.6;
@@ -376,7 +434,8 @@ Single Project
 .single .header{
     border-bottom: solid 1px #DEDEDE;
     padding-bottom: 10px;
-    margin: 20px 0 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .single .header p{
@@ -406,6 +465,60 @@ Single Project
     width: 100%;
     text-align: center;
     margin: 20px 0;
+}
+
+.form-wrapper{
+    margin: 50px 0;
+}
+
+.form-wrapper #message{
+    resize: none;
+    height: 200px;
+}
+
+.form-wrapper .button-container{
+    text-align: center;
+}
+
+footer .footer{
+    min-height: 90px;
+    padding-top: 20px;
+}
+
+footer .logo{
+    width: 175px;
+}
+
+footer .copyright{
+    font-size: 0.8em;
+}
+
+.policies::before{
+    position: absolute;
+    right: 15px;
+    top: -5px;
+    content: " ";
+    height: 2px;
+    width: 80px;
+    border-top: solid 2px white;
+    padding-bottom: 10px;
+}
+
+footer .policies{
+    list-style: none;
+}
+
+footer .policies li{
+    color: white;
+    font-size: 0.8em;
+}
+
+footer .policies a{
+    color: white;
+}
+
+footer .policies a:hover{
+    text-decoration: none;
 }
 
 @media (min-width: 768px){
@@ -439,11 +552,11 @@ Single Project
     }
     
     .project .info{
-        width: 40%;
+        width: 50%;
     }
 
     .project .image-container{
-        width: 60%;
+        width: 50%;
         height: 100%;
     }
 
@@ -484,6 +597,23 @@ Single Project
 
     .hero .normal-curve{
         width: 300px;
+    }
+}
+
+@media (min-width: 1200px){
+    .project .info{
+        width: 40%;
+    }
+
+    .project .image-container{
+        width: 60%;
+        height: 100%;
+    }
+
+    .project .button-container{
+        position: absolute;
+        left: 0;
+        bottom: 10px;
     }
 }
 
