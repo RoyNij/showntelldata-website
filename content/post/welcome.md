@@ -2,7 +2,7 @@
 title: "Welcome"
 date: 2020-03-30
 tags: []
-draft: true
+draft: false
 summary: "A quick welcome and a short explanation of how this site was created"
 ---
 Hello and welcome to the new version of [showntelldata.com](https://www.showntelldata.com). Over the last few days I have been working on a new version of the site and in this small space I just wanted to explain some of the reasons I changed from a [Joomla](https://www.joomla.org) powered site to a static website powered by [Hugo](https://gohugo.io).
