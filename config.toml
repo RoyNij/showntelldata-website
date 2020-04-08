@@ -54,19 +54,14 @@ googleAnalytics = ""
     weight = 2
 
 [[menu.icon]]
-    url = "https://bitbucket.com/%7B9582ce8e-391e-4527-a233-b96b5136f9ea%7D/"
-    name = "bitbucket"
-    weight = 3
-
-[[menu.icon]]
     url = "https://twitter.com/RoyNijhof/"
     name = "twitter"
-    weight = 4
+    weight = 3
 
 [[menu.icon]]
     url = "https://www.linkedin.com/in/roy-n-72111214/"
     name = "linkedin"
-    weight = 5
+    weight = 4
 
 
 # Languages
