@@ -1,7 +1,7 @@
 ---
 title: "SDG Tracker Dashboard"
 date: 2020-03-28T20:35:55-05:00
-draft: true
+draft: false
 banner: "/images/projects/inec-banner.png"
 year: 2018
 design: ["PuntoAparte", "Show 'n Tell Data"]
@@ -9,6 +9,7 @@ technology: ["PHP", "MySQL", "D3.js"]
 tags: ["organize", "visualize"]
 link: "https://aplicaciones2.ecuadorencifras.gob.ec/ods/"
 summary: "A custom dashboard visualizing official indicators showing the advancements with respect to the SDGs (Sustainable Development Goals) in Ecuador"
+weight: 3
 ---
 
 The [INEC](https://www.ecuadorencifras.gob.ec/institucional/home/) is the National Statistics Institute in Ecuador. They had the need to visualize their advancements in reaching the [Sustainable Development Goals (SDGs)](https://www.un.org/sustainabledevelopment/) using their own data for the indicators of their choosing.

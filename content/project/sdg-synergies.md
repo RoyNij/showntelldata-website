@@ -1,7 +1,7 @@
 ---
 title: "Sdg Synergies App"
 date: 2020-03-28T18:55:48-05:00
-draft: true
+draft: false
 banner: "/images/projects/sdg-synergies-banner.png"
 year: 2019
 design: ["PuntoAparte", "Show 'n Tell Data"]

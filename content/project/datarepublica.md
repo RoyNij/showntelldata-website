@@ -1,7 +1,7 @@
 ---
 title: "Datarepública"
 date: 2020-03-28T20:17:16-05:00
-draft: true
+draft: false
 banner: "/images/projects/datarepublica-banner.png"
 year: 2019
 design: ["Cepei", "Show 'n Tell Data"]
