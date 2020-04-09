@@ -1,0 +1,25 @@
+---
+title: "The Main Point of RESTful APIs"
+date: 2020-04-09T10:08:47-05:00
+draft: true
+summary: "A short rant on, or if you will, a friendly piece of advice for RESTful API development"
+---
+
+During my daily work I often have to deal with APIs, either as a consumer or as a producer of them. I have created APIs, some more RESTful than others and I have made a lot of mistakes. Fortunately, there are many guides on-line on how to create a "true" RESTful API. I particularly like [this one](https://hackernoon.com/restful-api-designing-guidelines-the-best-practices-60e1d954e7c9). However, I think most of these guides miss one important aspect, and that is the eventual objective of the API. If anything, the API is there to provide users with access to **useful** data.
+
+## Can't see the forest for the trees
+Developers focus a lot on standards and definitions. I get it, especially in large projects where many people are involved in coding for it. However, you can have a near-to-perfect design of your API, if the data you can get out of it as a user is unclear, sloppily defined or plain unusable, the API is worthless. Most will say, well isn't that part of your design process? And, I would agree, but most of the guidelines for building an API seem to focus on the method and less on the outcome.
+
+My APIs might not always be exactly RESTful, but I do try to focus on the data that a user can get out of them. Below are a couple of examples I have encountered in real life, which I now try hard to avoid. I am no expert on APIs and for many these examples might seem obvious, but I've encountered enough of them to get a bit (just a bit) worked up over them.
+
+### What does v stand for
+Resource attributes in an API should be self-explanatory. If an API needs 20 pages of documentation to explain that `v` means `value` and not `velocity` or that p_id means `parent_id` and not `project_id`, I will have to spend more time on understanding the data than on actually using that data for something worthwhile. As a consumer of your API, I don't care what you call your attributes in the database, heck if you're happy with `v` and `p_id`, that's fine by me. But, once you make that data available to the public through an API, please be so kind to add the `AS value` and `AS parent_id` to your SQL query.
+
+### Normalize your database, don't normalize your output
+Normalizing the data in your relational database is good practice. Again, I get it, but I've encountered APIs where the normalization was applied to the resources as well. To give an invented example based on reality: I could get a list of students, I could get a list of classes, but to figure out which students were taking which classes, I had to make a separate call to a different endpoint to get the intermediary table, which was filled with: `s_id` and `c_id`. This means, I don't just have to figure out what those names mean, I also have to somehow join multiple resources on the client side. I always understood that relational databases were build to make those joins efficiently. I am pretty sure that they will always do a better job than me looping over classes and students to find possible joins. Please, but pretty please, make the data your API throws out useful for me. If that means that your backend code has to do some more work, just do it, it will make me want to use your API instead of cursing the person who developed it.
+
+### Give me the data, but don't give me all of it
+Many of the APIs I've worked with were very specifically developed for a particular sector. This could range from students and classes, to economic data, to inventory management systems. For many of them I would often get a neat `.pdf` file in which the different endpoints were described. They would basically say, if you call this endpoint, you will get these resources and those resources will have these attributes. So far, so good. However, many of the attribute names meant nothing to me. As I am not an expert in every sector I work for, this would often mean I would have to send an e-mail to the developer to ask for the use of certain attributes. Unfortunately the response would often be: "well, this attribute is really only used for internal purposes". If I don't really need it, why would you send it to me? More importantly, if you spend time on creating documentation, just add a short description to the attributes, so that I know what I am working with.
+
+## Just a friendly piece of advice
+Like I mentioned before, I don't consider myself an expert on designing APIs. I also make many mistakes, and will make many more, so I am not trying to bash developers here. However, I do know what APIs are used for. By all means, follow all the guidelines for creating a RESTful API, but in the end make sure that what your API spits out is useful, even for people who don't necessarily have a very technical background. 
