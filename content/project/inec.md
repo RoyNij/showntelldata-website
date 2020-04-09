@@ -18,10 +18,10 @@ The [INEC](https://www.ecuadorencifras.gob.ec/institucional/home/) is the Nation
 * Visualizations of different indicators over time and separated by province
 * The visualizations should adjust to the data that is available
 * The possibility to add and edit data for the different indicators
-* The possibility to link `pdf` documentation to the indcators
+* The possibility to link `pdf` documentation to the indicators
 
 ## Solutions
-In collaboration with [Cepei](http://cepei.org) and [PuntoAparte](https://puntoaparte.com.co/) I developed a dashboard for the different indicators the INEC had with relationship to the SDGs. The main goal was to make sure that the visualizations could adjust to different datatypes as well as the different levels of availability of the data. In most cases indicators would have data over time and in some cases data was available separated by province.
+In collaboration with [Cepei](http://cepei.org) and [PuntoAparte](https://puntoaparte.com.co/) I developed a dashboard for the different indicators the INEC had with relationship to the SDGs. The main goal was to make sure that the visualizations could adjust to different data types as well as the different levels of availability of the data. In most cases indicators would have data over time and in some cases data was available separated by province.
 
 For this a separate database was created, and the data is loaded through a custom PHP backend into the different visualizations. Those visualizations will adjust on the client side depending on the type of data (percentage, number, ratio or currency) and the data availability. The first image below shows a visualization of a percentage datatype for which data was available over time as well as separated by province.
 

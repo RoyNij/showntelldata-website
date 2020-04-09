@@ -5,7 +5,7 @@ draft: false
 banner: "/images/projects/transparenciaclimatica-banner.png"
 year: 2019
 design: ["PuntoAparte", "Show 'n Tell Data"]
-technology: ["PHP", "Wordpres", "D3.js"]
+technology: ["PHP", "Wordpress", "D3.js"]
 tags: ["visualize"]
 summary: "A custom wordpress theme with custom built data visualizations"
 link: "http://transparenciaclimatica.org"

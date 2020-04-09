@@ -60,7 +60,7 @@ Another way of looking at the results is by looking at the network (graph) creat
 | ![Network view](/images/projects/sdg-synergies-network.png) |
 | *A network view of the SDG objective interactions* |
 
-These visualizations give a very good initial overview of the interactions between goals as well as being pleasing to the eye (or at least I think). That's alsow why all visualizations can be downloaded at a high resolution to be used in other documents.
+These visualizations give a very good initial overview of the interactions between goals as well as being pleasing to the eye (or at least I think). That's also why all visualizations can be downloaded at a high resolution to be used in other documents.
 
 ### Further analysis
 While the visualizations give a good initial view of the interactions, for a more detailed analysis I also added the possibility to download the data for further analysis using statistical analysis programs like R, Python or Gephi.

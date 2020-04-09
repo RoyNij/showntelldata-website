@@ -19,4 +19,4 @@ weight: 4
 
 
 ## Solutions
-The website is built with a custom Wordpress theme and contains a variety of custom post entry types. All these entry types have their own custom fields and moste of the pages are built up out of reusable components so that the site administrators can add, edit and delete sections as they see fit. Additionaly I developed some custom JSON endpoints to easily search through some of the organization's data. 
+The website is built with a custom Wordpress theme and contains a variety of custom post entry types. All these entry types have their own custom fields and most of the pages are built up out of reusable components so that the site administrators can add, edit and delete sections as they see fit. Additionally I developed some custom JSON endpoints to easily search through some of the organization's data. 
