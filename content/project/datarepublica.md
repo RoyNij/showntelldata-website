@@ -2,7 +2,7 @@
 title: "Datarepública"
 date: 2020-03-28T20:17:16-05:00
 draft: false
-banner: "/images/projects/datarepublica-banner.png"
+banner: "/images/projects/datarepublica-banner.jpg"
 year: 2019
 design: ["Cepei", "Show 'n Tell Data"]
 technology: ["PHP", "MySQL", "Laravel", "D3.js", "Vue.js"]

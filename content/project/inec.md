@@ -2,7 +2,7 @@
 title: "SDG Tracker Dashboard"
 date: 2020-03-28T20:35:55-05:00
 draft: false
-banner: "/images/projects/inec-banner.png"
+banner: "/images/projects/inec-banner.jpg"
 year: 2018
 design: ["PuntoAparte", "Show 'n Tell Data"]
 technology: ["PHP", "MySQL", "D3.js"]

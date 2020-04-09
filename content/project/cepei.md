@@ -2,7 +2,7 @@
 title: "Cepei.org"
 date: 2020-03-30T17:41:47-05:00
 draft: false
-banner: "/images/projects/cepei-banner.png"
+banner: "/images/projects/cepei-banner.jpg"
 year: 2019
 design: ["Cepei", "Show 'n Tell Data"]
 technology: ["PHP", "WordPress", "D3.js"]
