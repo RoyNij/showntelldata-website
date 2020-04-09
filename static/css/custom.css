@@ -58,7 +58,7 @@ Navigation
 
 .navbar-nav.main{
     font-family: var(--menuFont);
-    font-size: 24px;
+    font-size: 32px;
     padding: 10px;
     text-align: center;
 }
@@ -231,6 +231,7 @@ Section banner
 }
 
 .section-banner .normal-curve.posts.var{
+    display: none;
     position: absolute;
     bottom: 0;
     left: 60px;
@@ -546,6 +547,10 @@ footer .policies a:hover{
         height: 200px;
     }
 
+    .section-banner .normal-curve.posts.var{
+        display: block;
+    }
+
     .project{
         display: flex;
         height: 300px;
@@ -580,7 +585,7 @@ footer .policies a:hover{
         display: flex;
         justify-content: space-around;
         font-family: var(--menuFont);
-        font-size: 20px;
+        font-size: 24px;
         width: 200px;
     }
 
