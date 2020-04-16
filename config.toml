@@ -1,4 +1,4 @@
-baseURL = "http://dev-site.showntelldata.com/"
+baseURL = "https://www.showntelldata.com/"
 languageCode = "en-us"
 title = "Show 'n Tell Data"
 theme = "minimal"
