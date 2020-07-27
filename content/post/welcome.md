@@ -7,7 +7,7 @@ summary: "A quick welcome and a short explanation of how this site was created"
 ---
 
 ## Or why I switched from Joomla to Hugo
-Hello and welcome to the new version of [showntelldata.com](https://www.showntelldata.com). Over the last few days I have been working on a new version of the site and in this small space I just wanted to explain some of the reasons I changed from a [Joomla](https://www.joomla.org) powered site to a static website powered by [Hugo](https://gohugo.io).
+Hello and welcome to the new version of [showandtelldata.com](https://www.showandtelldata.com). Over the last few days I have been working on a new version of the site and in this small space I just wanted to explain some of the reasons I changed from a [Joomla](https://www.joomla.org) powered site to a static website powered by [Hugo](https://gohugo.io).
 
 ## No hate for Joomla
 First of all I want to make it clear, I have no hate whatsoever for [Joomla](https://www.joomla.org). I was very happy with my Joomla powered site, especially when I just started out. It was easy to set up and I could easily customize sections without having to code too much or having to search in detail through the documentation. Also, at the time, I found it easier to add custom data visualizations to a Joomla site than to a Wordpress site. The reasons I changed had nothing to do with any limitations in Joomla and all to do with my own limitations.
