@@ -54,15 +54,19 @@ googleAnalytics = ""
     weight = 2
 
 [[menu.icon]]
+    url = "https://gitlab.com/showntelldata/"
+    name = "gitlab"
+    weight = 3
+
+[[menu.icon]]
     url = "https://twitter.com/RoyNijhof/"
     name = "twitter"
-    weight = 3
+    weight = 4
 
 [[menu.icon]]
     url = "https://www.linkedin.com/in/roy-n-72111214/"
     name = "linkedin"
-    weight = 4
-
+    weight = 5
 
 # Languages
 DefaultContentLanguage = "en"
