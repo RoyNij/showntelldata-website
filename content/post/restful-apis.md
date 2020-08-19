@@ -1,7 +1,9 @@
 ---
 title: "The Main Point of RESTful APIs"
-date: 2020-04-09T10:08:47-05:00
-draft: true
+date: 2020-04-09
+publishDate: 2020-08-19
+draft: false
+tags: []
 summary: "A short rant on, or if you will, a friendly piece of advice for RESTful API development"
 ---
 
