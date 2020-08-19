@@ -1,6 +1,6 @@
 ---
 title: "Welcome"
-date: 2020-03-30
+date: "2020-03-30"
 tags: []
 draft: false
 summary: "A quick welcome and a short explanation of how this site was created"
