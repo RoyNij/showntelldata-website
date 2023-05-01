@@ -1,7 +1,7 @@
 ---
 title: "Transparenciaclimatica.org"
 date: 2020-03-30T17:44:47-05:00
-draft: false
+draft: true
 banner: "/images/projects/transparenciaclimatica-banner.png"
 year: 2019
 design: ["PuntoAparte", "Show 'n Tell Data"]
