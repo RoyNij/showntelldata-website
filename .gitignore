@@ -1,3 +1,5 @@
 themes/minimal
 /public
 /.vscode
+/.idea
+.hugo_build.lock
